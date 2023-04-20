@@ -1,0 +1,28 @@
+<!-- 
+If there are 3 file A,B and C 
+At present you are in B and you have to access file present in A then you have to use a special character that is   ../____   ,name of file in A, this special character is use to execute file present in file in which B file is present. As we know B file is present in file A. 
+
+./____ name of file , this special character is used to execute file present inside same folder.
+
+To do this we have to open all files.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pictures of Logs</h1>
+
+    <h2>A simple Log</h2>
+    <img src="./log.jpeg" alt="bunch of logs">     <!-- Here I used ./  this -->
+
+    <h2>Log in Forest</h2>
+    <img src="../forest.jpeg" alt="bunch of logs in forest">   <!-- Here I used  ../ this -->
+
+</body>
+</html>
